@@ -1,7 +1,9 @@
 import { NextPage } from 'next'
-import header from 'src/components/Header'
+
+import Content from 'src/components/Content'
+
 const Home: NextPage = () => {
-  return header()
+  return <div>{Content()}</div>
 }
 
 export default Home
